@@ -23,11 +23,11 @@ render() {
 
 
             <ul>
-                <li>
+                
             {this.props.smurfs.map(smurf => {
-                return smurf.name
+                return <li>{smurf.name}</li>
             })}
-            </li>
+            
             </ul>
 
         </div>
